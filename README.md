@@ -91,18 +91,46 @@ Data Preparation 階段建立三個衍生變數：
 
 ## Output Files
 
+## Output Files
+
 主要輸出檔案：
 
-- `outputs/anxiety_level_distribution.png`
-- `outputs/important_feature_scatterplots.png`
-- `outputs/numeric_correlation_heatmap.png`
-- `outputs/model_evaluation_comparison.png`
-- `outputs/prediction_plot_with_ci.png`
-- `outputs/model_evaluation_metrics.csv`
-- `outputs/prediction_confidence_interval_summary.csv`
+### Anxiety Level Distribution
 
-`prediction_plot_with_ci.png` 使用 `seaborn.regplot(ci=95)`，因此圖中的 confidence interval 為 95%。
+![Anxiety Level Distribution](outputs/anxiety_level_distribution.png)
 
+### Important Feature Scatterplots
+
+![Important Feature Scatterplots](outputs/important_feature_scatterplots.png)
+
+### Numeric Correlation Heatmap
+
+![Numeric Correlation Heatmap](outputs/numeric_correlation_heatmap.png)
+
+### Model Evaluation Comparison
+
+![Model Evaluation Comparison](outputs/model_evaluation_comparison.png)
+
+### Prediction Plot with 95% Confidence Interval
+
+![Prediction Plot with 95% Confidence Interval](outputs/prediction_plot_with_ci.png)
+
+### Residual Plot
+
+![Residual Plot](outputs/residual_plot.png)
+
+### Actual vs Predicted
+
+![Actual vs Predicted](outputs/actual_vs_predicted.png)
+
+### Actual vs Predicted Improved
+
+![Actual vs Predicted Improved](outputs/actual_vs_predicted_improved.png)
+
+### Other Output Files
+
+- [Model Evaluation Metrics CSV](outputs/model_evaluation_metrics.csv)
+- [Prediction Confidence Interval Summary CSV](outputs/prediction_confidence_interval_summary.csv)
 ## How to Run
 
 使用 uv 建立環境並安裝套件：
