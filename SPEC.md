@@ -100,6 +100,3 @@ PDF 報告需包含：
 - 2026-05-18：確認 Auto Regression 不適合作為本資料集主模型，因資料不是時間序列。
 - 2026-05-19：使用者提供新版 spec，要求嚴格改為三模型架構：Baseline、Feature Selection top 10、Interaction Terms；特徵工程需加入三個衍生變數，預測圖需使用 95% confidence interval。
 
-## 待確認問題
-
-- 最終報告 PDF 檔名是否使用 `4112064224.pdf`？
