@@ -5,13 +5,13 @@
 ## Project Overview
 
 - 主程式：`HW3.ipynb`
-- 報告草稿：`reports/HW3_report_draft.md`
 - 資料集：`enhanced_anxiety_dataset.csv`
 - 資料來源：Kaggle - Social Anxiety Dataset
 - Kaggle 連結：https://www.kaggle.com/datasets/natezhang123/social-anxiety-dataset
 - 分析流程：CRISP-DM
 - 主要模型：`sklearn.linear_model.LinearRegression`
 - 完整報告：https://hackmd.io/@1OvSUl48SO6eh2ByVBEn_A/rkPZ5Mjyfx
+- NotebookLM2對話與研究摘要：`NotebookLM Conversation.pdf`
 
 ## Dataset
 
