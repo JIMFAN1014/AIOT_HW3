@@ -11,7 +11,7 @@
 - Kaggle 連結：https://www.kaggle.com/datasets/natezhang123/social-anxiety-dataset
 - 分析流程：CRISP-DM
 - 主要模型：`sklearn.linear_model.LinearRegression`
-- 完整報告：'https://hackmd.io/@1OvSUl48SO6eh2ByVBEn_A/rkPZ5Mjyfx'
+- 完整報告：https://hackmd.io/@1OvSUl48SO6eh2ByVBEn_A/rkPZ5Mjyfx
 
 ## Dataset
 
