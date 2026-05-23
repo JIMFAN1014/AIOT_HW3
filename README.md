@@ -11,7 +11,7 @@
 - 分析流程：CRISP-DM
 - 主要模型：`sklearn.linear_model.LinearRegression`
 - 完整報告：https://hackmd.io/@1OvSUl48SO6eh2ByVBEn_A/rkPZ5Mjyfx
-- NotebookLM對話與研究摘要：`NotebookLM Conversation.pdf`
+- 報告與對話紀錄：`report_and_chatlog/`
 
 ## Dataset
 
@@ -91,8 +91,6 @@ Data Preparation 階段建立三個衍生變數：
 
 ## Output Files
 
-## Output Files
-
 主要輸出檔案：
 
 ### Anxiety Level Distribution
@@ -131,6 +129,16 @@ Data Preparation 階段建立三個衍生變數：
 
 - [Model Evaluation Metrics CSV](outputs/model_evaluation_metrics.csv)
 - [Prediction Confidence Interval Summary CSV](outputs/prediction_confidence_interval_summary.csv)
+- [Prediction Interval Plot](outputs/prediction_interval.png)
+
+## Report and Chat Log
+
+報告、GPT 對話紀錄與 NotebookLM 對話整理放在 `report_and_chatlog/`：
+
+- [CHAT_LOG.md](report_and_chatlog/CHAT_LOG.md)
+- [HW3 多元線性回歸分析報告 - HackMD.pdf](report_and_chatlog/HW3%20多元線性回歸分析報告%20-%20HackMD.pdf)
+- [NotebookLM Conversation.pdf](report_and_chatlog/NotebookLM%20Conversation.pdf)
+
 ## How to Run
 
 使用 uv 建立環境並安裝套件：
@@ -151,21 +159,28 @@ uv run jupyter notebook HW3.ipynb
 
 ```text
 .
+├── .gitignore
 ├── HW3.ipynb
+├── README.md
 ├── enhanced_anxiety_dataset.csv
 ├── outputs/
+│   ├── actual_vs_predicted.png
+│   ├── actual_vs_predicted_improved.png
 │   ├── anxiety_level_distribution.png
 │   ├── important_feature_scatterplots.png
-│   ├── numeric_correlation_heatmap.png
 │   ├── model_evaluation_comparison.png
-│   ├── prediction_plot_with_ci.png
 │   ├── model_evaluation_metrics.csv
-│   └── prediction_confidence_interval_summary.csv
-├── reports/
-│   └── HW3_report_draft.md
+│   ├── numeric_correlation_heatmap.png
+│   ├── prediction_confidence_interval_summary.csv
+│   ├── prediction_interval.png
+│   ├── prediction_plot_with_ci.png
+│   └── residual_plot.png
 ├── pyproject.toml
-├── uv.lock
-└── README.md
+├── report_and_chatlog/
+│   ├── CHAT_LOG.md
+│   ├── HW3 多元線性回歸分析報告 - HackMD.pdf
+│   └── NotebookLM Conversation.pdf
+└── uv.lock
 ```
 
 ## Submission Notes
@@ -178,5 +193,3 @@ uv run jupyter notebook HW3.ipynb
 - NotebookLM 研究摘要
 - 網路上主流或更優解法比較
 - 必要圖表與資料檔
-
-
